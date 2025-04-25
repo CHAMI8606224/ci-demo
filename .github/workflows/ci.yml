@@ -1,3 +1,7 @@
+name: Node.js CI
+on:
+ push:
+   branches: [ master ]  # or 'main', depending on your branch
 jobs:
  build:
    runs-on: ubuntu-latest
@@ -8,5 +12,5 @@ jobs:
        with:
          node-version: '22'
      - run: npm install
-     - run: chmod +x ./node_modules/.bin/jest  # Ensure Jest has execute permissions
-     - run: npm test --verbose  # Run the tests with verbose output
+     - run: chmod +x ./node_modules/.bin/jest
+     - run: npm test --verbose
