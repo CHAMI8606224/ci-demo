@@ -1,0 +1,23 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "ITBIN2211-0033",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHAMI8606224/ci-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHAMI8606224/ci-demo/issues"
+  },
+  "homepage": "https://github.com/CHAMI8606224/ci-demo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
